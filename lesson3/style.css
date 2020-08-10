@@ -1,0 +1,22 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.effect {
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 35px;
+}
+
+.effect:hover {
+  border-style: solid;
+  border-color: gray;
+  border-width: 10px;
+  border-radius: 35px;
+}

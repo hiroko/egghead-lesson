@@ -1,0 +1,21 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.effect {
+  border-style: solid;
+  border-color: blue;
+  border-width: 10px;
+}
+
+.effect:hover {
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+}

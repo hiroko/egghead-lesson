@@ -1,0 +1,16 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.effect {
+  opacity: 1;
+}
+
+.effect:hover {
+  opacity: 0.3;
+}
