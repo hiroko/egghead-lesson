@@ -3,20 +3,16 @@ body {
   margin-left: 50px;
 }
 
-p {
-  font-size: 30px;
-}
-
 .effect {
   border-style: solid;
-  border-color: black;
+  border-color: yellow;
   border-width: 10px;
-  border-radius: 35px;
+  border-radius: 50%;
 }
 
 .effect:hover {
   border-style: solid;
-  border-color: gray;
+  border-color: yellow;
   border-width: 10px;
-  border-radius: 35px;
+  border-radius: 25% 50%;
 }

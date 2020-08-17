@@ -15,7 +15,8 @@ p {
 }
 
 .effect:hover {
-  border-style: solid;
-  border-color: yellow;
-  border-width: 10px;
+  border-style: dotted;
+  border-color: red;
+  border-width: 20px;
+  opacity: 50%;
 }
