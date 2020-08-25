@@ -8,9 +8,9 @@ p {
 }
 
 .effect {
-  opacity: 1;
+  opacity: 80%;
 }
 
 .effect:hover {
-  opacity: 0.3;
+  opacity: 10%;
 }
