@@ -1,0 +1,20 @@
+body {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.effect {
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+  border-radius: 50%;
+}
+
+.effect:hover {
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+  border-radius: 25% 50%;
+  opacity: 50%;
+  transition-delay: 5000ms;
+}
