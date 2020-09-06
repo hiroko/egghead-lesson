@@ -1,0 +1,23 @@
+body {
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+p {
+  font-size: 30px;
+  padding: 10px;
+}
+img {
+  margin: 10px;
+  border-style: solid;
+  border-color: yellow;
+  border-width: 10px;
+}
+
+.effect:hover {
+  filter: blur(5px);
+}
+
+.effect2:hover {
+  filter: blur(50px);
+}
