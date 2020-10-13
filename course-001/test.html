@@ -1,0 +1,55 @@
+<div class="card">
+  <img src="https://placedog.net/350/450/?id=139">
+  <div class="overlay">
+    <div class="text"><h2>JENNY</h2>
+      <p>A friendly and healthy 3-year-old corgi ready for play!</p>
+    </div>
+  </div>
+</div>
+<div class="card"> </div>
+
+
+
+.card {
+  width: 350px;
+  height: 100%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000000;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+
+}
+
+.container:hover .overlay {
+  opacity: 0.75;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

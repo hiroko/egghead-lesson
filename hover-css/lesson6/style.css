@@ -1,0 +1,21 @@
+body {
+  margin-top: 300px;
+  margin-left: 75px;
+  margin-right: 100px;
+}
+p {
+  color: #FFFFFF;
+  font-size: 35px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.effect {
+  width: 600px;
+  height: 200px;
+  background: url("image.png");
+}
+
+.effect:hover {
+  background: url("image2.png");
+}
