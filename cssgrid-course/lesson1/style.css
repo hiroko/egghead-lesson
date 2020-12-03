@@ -1,0 +1,41 @@
+:root {
+  --yellow: #ffc600;
+  --black: #000000;
+  --gray: #DADEDF;
+  --darkgray: #7F7F7F;
+}
+
+html {
+  /* border-box: add border and padding without increasing box-size */
+  box-sizing: border-box;
+  font-family: Tahoma;
+  color: var(--black);
+
+}
+
+/* inherit box-sizing from .html */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--gray);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 5px 0;
+}
+
+p {
+  font-size: 15px;
+  margin: 5px;
+}
